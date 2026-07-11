@@ -9,8 +9,8 @@ import pickle
 import numpy as np
 import pandas as pd
 
-loaded_model=pickle.load(open("D:/projects ml/DIABITIES-PREDICTION/DIABETES_PREDICTION.sav","rb"))
-scaler = pickle.load(open("D:/projects ml/DIABITIES-PREDICTION/scaler.sav", "rb"))
+loaded_model=pickle.load(open("DIABETES_PREDICTION_.sav","rb"))
+scaler = pickle.load(open("scaler.sav", "rb"))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)

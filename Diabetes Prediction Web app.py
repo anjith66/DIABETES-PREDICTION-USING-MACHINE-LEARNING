@@ -13,7 +13,7 @@ import base64
 
 
 loaded_model=pickle.load(open("DIABETES_PREDICTION.sav","rb"))
-scaler = pickle.load(open("scaler", "rb"))
+scaler = pickle.load(open("scaler.sav", "rb"))
 
 
 def add_bg_from_local(image_file):

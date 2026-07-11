@@ -118,7 +118,7 @@ def diabetes_prediction(input_data):
 def main():
 
     add_bg_from_local(
-    r"D:\projects ml\DIABITIES-PREDICTION\diabetes background.png"
+    r"diabetes background.png"
 )
     st.title(" Diabetes Prediction App")
 

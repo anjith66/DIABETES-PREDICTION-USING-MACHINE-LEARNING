@@ -4,19 +4,15 @@ Created on Fri Jul 10 19:19:42 2026
 
 @author: anjith
 """
-import os
 import numpy as np 
 import pickle 
 import streamlit as st 
 import pandas as pd
 import base64
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# 2. Join the directory path with your model file name (Fix the name if needed!)
-model_path = os.path.join(BASE_DIR, "DIABETES_PREDICTION.sav")
 
-loaded_model=pickle.load(open(model_path,"rb"))
+loaded_model=pickle.load(open("DIABETES_PREDICTION_.sav","rb"))
 scaler = pickle.load(open("scaler", "rb"))
 
 

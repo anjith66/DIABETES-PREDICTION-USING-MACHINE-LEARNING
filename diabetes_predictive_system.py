@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-loaded_model=pickle.load(open("DIABETES_PREDICTION_.sav","rb"))
+loaded_model=pickle.load(open("DIABETES_PREDICTION.sav","rb"))
 scaler = pickle.load(open("scaler.sav", "rb"))
 
 

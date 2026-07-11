@@ -12,7 +12,7 @@ import base64
 
 
 
-loaded_model=pickle.load(open("DIABETES_PREDICTION_.sav","rb"))
+loaded_model=pickle.load(open("DIABETES_PREDICTION.sav","rb"))
 scaler = pickle.load(open("scaler", "rb"))
 
 

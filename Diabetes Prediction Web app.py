@@ -10,7 +10,7 @@ import pickle
 import streamlit as st 
 import pandas as pd
 import base64
-loaded_model=pickle.load(open("D:/projects ml/DIABITIES-PREDICTION/DIABETES_PREDICTION_.sav","rb"))
+loaded_model=pickle.load(open("D:/projects ml/DIABITIES-PREDICTION/DIABETES_PREDICTION.sav","rb"))
 scaler = pickle.load(open("D:/projects ml/DIABITIES-PREDICTION/scaler.sav", "rb"))
 
 
